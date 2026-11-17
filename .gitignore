@@ -1,0 +1,41 @@
+# Entorno virtual de Python (excluido)
+venv/
+.venv/
+env/
+ENV/
+
+# Dependencias Node.js
+node_modules/
+npm-debug.log*
+
+# Caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Archivos de ayuda y temporales
+.gh_pages_repo/
+build/
+dist/
+
+# Claves y certificados: se generan en cada PC, nunca se suben al repositorio
+certs/
+.ssh_deploy/
+*.key
+*.pfx
+
+# Datos reales del personal: NUNCA se suben (la app crea la base vacia al iniciar)
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.bak
+backups_gdrive_sync/
+backups/
+*.log
+.env
+.env.*
+!.env.example
+*.pem
+id_rsa*
+id_ed25519*
